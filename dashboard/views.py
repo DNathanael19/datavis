@@ -12,6 +12,8 @@ dt2 = [
           20
         ]
 
+#wilson esteve aqui
+
 # Create your views here.
 def index(request):
     return render(request, 'index.html', {'dt2':dt2})
