@@ -5,6 +5,8 @@
 
   feather.replace({ 'aria-hidden': 'true' })
 
+  
+
   // Graphs
   const ctx = document.getElementById('myChart')
   // eslint-disable-next-line no-unused-vars
@@ -12,24 +14,17 @@
     type: 'line',
     data: {
       labels: [
-        'Sunday',
-        'Monday',
-        'Tuesday',
-        'Wednesday',
-        'Thursday',
-        'Friday',
-        'Saturday'
+        'Domingo',
+        'Segunda',
+        'Tercça',
+        'Quarta',
+        'Quinta',
+        'Sexta',
+        'Sábado', 
+        'Sabado á tarde'
       ],
       datasets: [{
-        data: [
-          15339,
-          21345,
-          18483,
-          24003,
-          23489,
-          24092,
-          12034
-        ],
+        data: dt,
         lineTension: 0,
         backgroundColor: 'transparent',
         borderColor: '#007bff',
