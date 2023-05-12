@@ -4,4 +4,4 @@ from django.db import models
 class Quimica(models.Model):
     id = models.IntegerField(primary_key=True)
     valor = models.FloatField()
-    nome = models.CharField(default= None,max_length=100)
+    nome = models.CharField(default=None, max_length=100)

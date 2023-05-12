@@ -14,13 +14,13 @@
     type: 'line',
     data: {
       labels: [
-        'Segunda',
+        'Segunda', 
         'Terça',
-        'Quarta',
-        'Quinta',
-        'Sexta',
-        'Sabado',
-        'Sabado a tarde',
+        'Quarta', 
+        'Quinta', 
+        'Sexta', 
+        'Sabado', 
+        'Domingo', 
       ],
       datasets: [{
         data: dt,
