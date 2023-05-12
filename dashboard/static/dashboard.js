@@ -11,19 +11,11 @@
   const ctx = document.getElementById('myChart')
   // eslint-disable-next-line no-unused-vars
   const myChart = new Chart(ctx, {
-    type: 'line',
+    type: 'bar',
     data: {
-      labels: [
-        'Segunda', 
-        'Terça',
-        'Quarta', 
-        'Quinta', 
-        'Sexta', 
-        'Sabado', 
-        'Domingo', 
-      ],
+      labels: peso,
       datasets: [{
-        data: dt,
+        data: valor,
         lineTension: 0,
         backgroundColor: 'white',
         borderColor: '#007bff',
@@ -34,7 +26,7 @@
     options: {
       plugins: {
         legend: {
-          display: true
+          display: false
         },
         tooltip: {
           boxPadding: 3
